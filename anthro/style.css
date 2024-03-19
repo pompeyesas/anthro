@@ -1,3 +1,28 @@
+html {
+  height: 200vh;
+}
+
+p {
+  margin: 0;
+
+  padding: 10px;
+
+  font-size: 25px;
+}
+
+h1 {
+  font-size: 60px ;
+
+  font-weight: bolder;
+}
+
+img {
+  height: 200px;
+
+  width: 100vw;
+}
+
+
 * {
 
     margin: 0px;
@@ -5,8 +30,11 @@
     padding: 0px;
   
     box-sizing: border-box;
+
   
-  }
+}
+
+
   
   .body-text {
   
@@ -18,11 +46,15 @@
   
     justify-content: center;
   
-    margin-top: 250px;
+    margin-top: 20px;
   
   }
+
+
   
   nav {
+
+    position:sticky;
   
     display: flex;
   
@@ -39,6 +71,9 @@
   }
   
   .heading {
+
+
+    position:sticky;
   
     color: white;
   
@@ -51,6 +86,8 @@
   }
   
   .nav-links {
+
+    position:sticky;
   
     display: flex;
   
@@ -61,12 +98,16 @@
   }
   
   .nav-links li {
+
+    position:sticky;
   
     list-style: none;
   
   }
   
   .nav-links a {
+
+    position:sticky;
   
     color: white;
 
@@ -85,12 +126,16 @@
   }
   
   .nav-links a:hover:not(.active) {
+
+    position:sticky;
   
     background-color: SlateBlue;
   
   }
   
   .nav-links li a.active {
+
+    position:sticky;
   
     background-color: MediumPurple;
   
